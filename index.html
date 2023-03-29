@@ -1,29 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>The Springs Health and Rehab Center</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
+
 <body>
-    <h1>Login</h1>
-    <form >
-        <div class="userdiv">
-            <label for="uname" class="labels">Username</label> </br>
-            <input type="text" placeholder="Enter Username" name="uname" class="textbox">
-        </div>
-        <div class="pwddiv">
-            <label for="psw" class="labels">Password</label> </br>
-            <input type="password" placeholder="Enter Password" name="psw" class="textbox">
-        </div>
-        <div>
-            <button type="sumbit">Submit</button>
-            <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
-        </div>
-    </form>
+    <div class="container">
+        <h1>The Springs Health and Rehab Center</h1>
+        <p class="portal-text">Time Off Request Portal</p>
+        <form id="login-form">
+            <input type="text" id="employee-id" placeholder="Employee ID" required>
+            <button type="submit">Log In</button>
+        </form>
+    </div>
 </body>
+
 </html>
